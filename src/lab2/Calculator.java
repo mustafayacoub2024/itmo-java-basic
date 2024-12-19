@@ -14,11 +14,11 @@ public class Calculator {
     }
 
     public static void division(int a, int b) {
-        System.out.println(a / b);
+        System.out.println((double) a / b);
     }
 
     public static void division(long a, long b) {
-        System.out.println(a / b);
+        System.out.println((double)a / b);
     }
 
     public static void division(double a, double b) {
