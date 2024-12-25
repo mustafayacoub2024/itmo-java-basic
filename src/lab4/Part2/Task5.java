@@ -51,7 +51,7 @@ public class Task5 {
     public static void main(String[] args) {
 
         int[] array = {5, 6, 7, 2};
-        int[] array2 = {2,5,1,0,10,9,4,2,8,6,7};
+        int[] array2 = {2, 5, 1, 0, 10, 9, 4, 2, 8, 6, 7};
         printArray(array);
         printArray(array2);
     }

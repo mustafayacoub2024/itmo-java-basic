@@ -16,11 +16,11 @@ public class Task2 {
         return array;
     }
 
-    public static void print(int[] array){
-        System.out.println("Длина массива равно= "+array.length);
+    public static void print(int[] array) {
+        System.out.println("Длина массива равно= " + array.length);
         System.out.print("Элементы массива= [");
         for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+" ");
+            System.out.print(array[i] + " ");
         }
         System.out.println("]");
     }
