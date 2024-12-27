@@ -1,25 +1,19 @@
 package lab5;
 
 public class Task4 {
-    public static int result(String str1, String str2) {
+    public static int numberOfsubstrings(String str1, String str2) {
         int count = 0;
-        char[] word1 = str1.toCharArray();
-        char[] word2 = str2.toCharArray();
-
-        for (int i = 0; i < word1.length - 1; i++) {
-            for (int j = 0; j < word2.length - 1; j++) {
-                if (word1[i] == word2[j]) {
-                    count++;
-                }
-            }
+        int index = 0;
+        while ((index = str2.indexOf(str1, index)) != -1) {
+            count++;
+            index++;
         }
-
         return count;
     }
 
     public static void main(String[] args) {
-        System.out.println(result("об", "обаобоба"));
-        System.out.println(result("об", "aaaaaaaaaaa"));
-        System.out.println(result("об", "обаобобаобобоб"));
+        System.out.println(numberOfsubstrings("об", "обаобоба"));
+        System.out.println(numberOfsubstrings("об", "aaaaaaaaaaa"));
+        System.out.println(numberOfsubstrings("об", "обаобобаобобоб"));
     }
 }
