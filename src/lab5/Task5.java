@@ -1,7 +1,7 @@
 package lab5;
 
 public class Task5 {
-    public static void result(String str) {
+    public static void invertWordsInAString(String str) {
 
         for (String word : str.split(" ")) {
             StringBuilder builder = new StringBuilder(word);
@@ -11,6 +11,6 @@ public class Task5 {
     }
 
     public static void main(String[] args) {
-        result("This is a test string");
+        invertWordsInAString("This is a test string");
     }
 }
