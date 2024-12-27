@@ -1,7 +1,7 @@
 package lab5;
 
 public class Task1 {
-    public static String result(String str) {
+    public static String  longestWord(String str) {
         String[] words = str.split(" ");
         String result = "";
         for (String word : words) {
@@ -13,6 +13,6 @@ public class Task1 {
     }
 
     public static void main(String[] args) {
-        System.out.println(result("Написать метод для поиска самого длинного слова в тексте"));
+        System.out.println(longestWord("Написать метод для поиска самого длинного слова в тексте"));
     }
 }
