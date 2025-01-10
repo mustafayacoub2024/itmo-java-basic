@@ -2,8 +2,11 @@ package lab6.Task5;
 
 public class ChildClass extends SuperClass {
 
+    void setName(){
+        this.name = sc.next();
+    }
+
     String getName(){
-        String name = sc.nextLine();
-        return name;
+        return this.name;
     }
 }
