@@ -4,17 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa03a06f-7550-40ed-b2ed-b27afe5b00ba" name="Changes" comment="Fix bag" />
-    <list default="true" id="aa03a06f-7550-40ed-b2ed-b27afe5b00ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    <list default="true" id="aa03a06f-7550-40ed-b2ed-b27afe5b00ba" name="Changes" comment="First and second laboratory work">
-      <change beforePath="$PROJECT_DIR$/src/lab1/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1/Task2.java" afterDir="false" />
+    <list default="true" id="aa03a06f-7550-40ed-b2ed-b27afe5b00ba" name="Changes" comment="Laboratory work №6">
+      <change beforePath="$PROJECT_DIR$/src/lab6/Task5/ChildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab6/Task5/ChildClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab6/Task5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab6/Task5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab6/Task5/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab6/Task5/SuperClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -35,14 +41,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "Application.Task2.executor": "Run",
     "Application.Task3.executor": "Run",
-    "Application.Task2.executor": "Run",
+    "Application.lab6.Task2.Main.executor": "Run",
+    "Application.lab6.Task3.Main.executor": "Run",
+    "Application.lab6.Task4.Main.executor": "Run",
+    "Application.lab6.Task5.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lab1andlab2",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "lab__6",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Обучение в ИТМО/itmo",
+    "last_opened_file_path": "D:/Обучение в ИТМО/ДЗ/itmo-java-basic/itmo-java-basic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,16 +68,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Обучение в ИТМО\ДЗ\itmo-java-basic\itmo-java-basic\src\lab6\Task2" />
       <recent name="D:\Обучение в ИТМО\ДЗ\itmo-java-basic\itmo-java-basic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3">
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab1.Task2" />
+  <component name="RunManager" selected="Application.lab6.Task5.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab6.Task1.Main" />
       <module name="itmo-java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab1.*" />
+          <option name="PATTERN" value="lab6.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +86,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab1.Task3" />
+    <configuration name="lab6.Task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab6.Task2.Main" />
       <module name="itmo-java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab1.*" />
+          <option name="PATTERN" value="lab6.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab6.Task3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab6.Task3.Main" />
+      <module name="itmo-java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab6.Task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab6.Task4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab6.Task4.Main" />
+      <module name="itmo-java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab6.Task4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab6.Task5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab6.Task5.Main" />
+      <module name="itmo-java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab6.Task5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,8 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.lab6.Task5.Main" />
+        <item itemvalue="Application.lab6.Task4.Main" />
+        <item itemvalue="Application.lab6.Task3.Main" />
+        <item itemvalue="Application.lab6.Task2.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -112,16 +166,7 @@
       <updated>1734625410844</updated>
       <workItem from="1734625411916" duration="320000" />
       <workItem from="1734626571395" duration="1358000" />
-    </task>
-    <task id="LOCAL-00001" summary="First and second laboratory work">
-      <option name="closed" value="true" />
-      <created>1734627495287</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1734627495287</updated>
-      <workItem from="1734625411916" duration="320000" />
-      <workItem from="1734626571395" duration="3158000" />
+      <workItem from="1736512391558" duration="4045000" />
     </task>
     <task id="LOCAL-00001" summary="First and second laboratory work">
       <option name="closed" value="true" />
@@ -132,7 +177,6 @@
       <updated>1734627495287</updated>
       <workItem from="1734625411916" duration="1000" />
     </task>
-    <option name="localTasksCounter" value="2" />
     <task id="LOCAL-00002" summary="Fix bag">
       <option name="closed" value="true" />
       <created>1734632455940</created>
@@ -141,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734632455940</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Laboratory work №6">
+      <option name="closed" value="true" />
+      <created>1736529479473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736529479473</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,22 +212,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First and second laboratory work" />
-    <option name="LAST_COMMIT_MESSAGE" value="First and second laboratory work" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="First and second laboratory work" />
     <MESSAGE value="Fix bag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bag" />
+    <MESSAGE value="Laboratory work №6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laboratory work №6" />
   </component>
 </project>
