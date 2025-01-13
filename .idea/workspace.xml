@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa03a06f-7550-40ed-b2ed-b27afe5b00ba" name="Changes" comment="Laboratory work №6">
-      <change beforePath="$PROJECT_DIR$/src/lab6/Task5/ChildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab6/Task5/ChildClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab6/Task5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab6/Task5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lab6/Task5/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab6/Task5/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab7/Task1/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Plane.executor": "Run",
     "Application.Task2.executor": "Run",
     "Application.Task3.executor": "Run",
     "Application.lab6.Task2.Main.executor": "Run",
@@ -50,10 +50,10 @@
     "Application.lab6.Task5.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lab__6",
+    "git-widget-placeholder": "lab__7",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Обучение в ИТМО/ДЗ/itmo-java-basic/itmo-java-basic",
+    "last_opened_file_path": "D:/Обучение в ИТМО/itmo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,13 +72,13 @@
       <recent name="D:\Обучение в ИТМО\ДЗ\itmo-java-basic\itmo-java-basic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lab6.Task5.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab6.Task1.Main" />
+  <component name="RunManager" selected="Application.Plane">
+    <configuration name="Plane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab7.Task1.Plane" />
       <module name="itmo-java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab6.Task1.*" />
+          <option name="PATTERN" value="lab7.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Plane" />
         <item itemvalue="Application.lab6.Task5.Main" />
         <item itemvalue="Application.lab6.Task4.Main" />
         <item itemvalue="Application.lab6.Task3.Main" />
         <item itemvalue="Application.lab6.Task2.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +192,14 @@
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1736529479473</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Laboratory work №6">
+      <option name="closed" value="true" />
+      <created>1736531544759</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736531544759</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
