@@ -1,0 +1,9 @@
+package lab10.Task1;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        NewThread.threadStart(10);
+    }
+}
