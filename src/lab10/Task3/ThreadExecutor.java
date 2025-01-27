@@ -1,22 +1,23 @@
 package lab10.Task3;
 
+import java.util.concurrent.CountDownLatch;
+
 public class ThreadExecutor {
 
     public void executeThreads(Counter counter, int numberOfThreads, int incrementsPerThread) {
 
-        Thread[] threads = new Thread[numberOfThreads];
+        CountDownLatch latch = new CountDownLatch(numberOfThreads);
+
 
         for (int i = 0; i < numberOfThreads; i++) {
-            threads[i] = new Thread(new WorkerThread(counter, incrementsPerThread));
-            threads[i].start();
+            new Thread(new WorkerThread(counter, incrementsPerThread, latch)).start();
         }
 
-        for (Thread thread : threads) {
-            try {
-                thread.join();
-            } catch (InterruptedException e) {
-                System.out.println(e.getMessage());
-            }
+
+        try {
+            latch.await();
+        } catch (InterruptedException e) {
+            System.out.println("Ожидание было прервано: " + e.getMessage());
         }
 
         System.out.println("Итоговое значение count: " + counter.getCount());
